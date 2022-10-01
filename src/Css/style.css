@@ -1,0 +1,120 @@
+body{
+    background-color: #413F4D;
+    height: 100vh;
+}
+.One {
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    animation-name: test;
+    /* animation-duration: 9s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.test0
+{
+    animation-duration: 4s;
+}
+.test1
+{
+    animation-duration: 5s;
+}
+.test2
+{
+    animation-duration: 2s;
+}
+
+.test3
+{
+    animation-duration: 9s;
+}
+.test4
+{
+    animation-duration: 4s;
+}
+.test5
+{
+    animation-duration: 5s;
+}
+.test6
+{
+    animation-duration: 4s;
+}
+.test7
+{
+    animation-duration: 5s;
+}
+.test8
+{
+    animation-duration: 10s;
+}
+
+.test9
+{
+    animation-duration: 8s;
+}
+.test10
+{
+    animation-duration: 5s;
+}
+.test11
+{
+    animation-duration: 4s;
+}
+.test12
+{
+    animation-duration: 5s;
+}
+.test13
+{
+    animation-duration: 8s;
+}
+.test14
+{
+    animation-duration: 5s;
+}
+.test15
+{
+    animation-duration: 10s;
+}
+
+.test16
+{
+    animation-duration: 8s;
+}
+.test17
+{
+    animation-duration: 5s;
+}
+.test18
+{
+    animation-duration: 4s;
+}
+.test19
+{
+    animation-duration: 5s;
+}
+.test20
+{
+    animation-duration: 4s;
+}
+img
+{
+    width: 100%;
+
+}
+
+@keyframes test {
+    0%
+    {
+        transform: translateY(-110px);
+    }
+    40%
+     {
+        transform: translateY(100vh);
+    }
+    100%
+     {
+        transform: translateY(100vh);
+    }
+}
